@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Jaime Casado</title>
+  <desc id="desc">Applied AI, AI Agents, Business Automation and Software Engineering. Computer Information Systems student at UT Tyler.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06101F"/>
+      <stop offset="0.55" stop-color="#0B1D3A"/>
+      <stop offset="1" stop-color="#102A52"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#5B8DEF" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#glow)"/>
+
+  <!-- Node network: input -> AI -> code checks -> human -->
+  <g fill="none" stroke="#7DD3FC" stroke-opacity="0.45" stroke-width="1.5">
+    <path d="M820 120 L920 170 L1030 120"/>
+    <path d="M920 170 L920 250 L1030 250"/>
+    <path d="M820 250 L920 250"/>
+    <path d="M1030 120 L1100 185 L1030 250"/>
+  </g>
+  <g>
+    <circle cx="820" cy="120" r="6" fill="#0B1D3A" stroke="#7DD3FC" stroke-width="2"/>
+    <circle cx="820" cy="250" r="6" fill="#0B1D3A" stroke="#7DD3FC" stroke-width="2"/>
+    <circle cx="920" cy="170" r="10" fill="#38BDF8"/>
+    <circle cx="920" cy="250" r="6" fill="#0B1D3A" stroke="#7DD3FC" stroke-width="2"/>
+    <circle cx="1030" cy="120" r="7" fill="#0B1D3A" stroke="#A5B4FC" stroke-width="2"/>
+    <circle cx="1030" cy="250" r="7" fill="#0B1D3A" stroke="#A5B4FC" stroke-width="2"/>
+    <circle cx="1100" cy="185" r="12" fill="#6366F1"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#94A3B8">
+    <text x="890" y="150">AI</text>
+    <text x="1000" y="100">code checks</text>
+    <text x="1120" y="190">human</text>
+  </g>
+
+  <!-- Text -->
+  <g font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <text x="72" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#7DD3FC" letter-spacing="2">HI, I'M</text>
+    <text x="70" y="158" font-size="64" font-weight="700" fill="#FFFFFF">Jaime Casado</text>
+    <rect x="72" y="180" width="96" height="4" rx="2" fill="url(#accent)"/>
+    <text x="72" y="222" font-size="24" font-weight="500" fill="#E2E8F0">Applied AI  ·  AI Agents  ·  Business Automation  ·  Software Engineering</text>
+    <text x="72" y="266" font-size="18" fill="#94A3B8">Computer Information Systems @ UT Tyler  ·  Class of 2028  ·  NCAA Student-Athlete</text>
+  </g>
+</svg>
