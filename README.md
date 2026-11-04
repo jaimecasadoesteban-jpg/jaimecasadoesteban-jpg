@@ -4,7 +4,7 @@
 
 ### Computer Information Systems Student - The University of Texas at Tyler
 
-Currently focusing on **AI Agents** and **Business Automation**.<br>
+Currently focusing on **Agentic AI** and **Business Automation**.<br>
 I build AI systems for real businesses, where the AI handles language and tested code makes the decisions.
 
 <a href="https://www.linkedin.com/in/jaime-casado-a099a7380"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
